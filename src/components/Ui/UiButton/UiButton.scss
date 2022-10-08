@@ -1,0 +1,12 @@
+.button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+    background-color: gray;
+  }
+}
