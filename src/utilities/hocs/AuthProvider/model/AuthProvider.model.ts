@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 
 export interface AuthContextProviderProps {
-  user?: UserProps;
   signIn?: (newUser: UserProps) => void;
   signOut?: () => void;
 }
